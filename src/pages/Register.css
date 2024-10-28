@@ -1,0 +1,57 @@
+/* Register.css */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    background: linear-gradient(to right, #eef2f3, #8e9eab);
+  }
+  
+  .register-form {
+    background-color: white; /* White background for form */
+    padding: 40px; /* Padding around the form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 100%; /* Full width */
+    max-width: 400px; /* Maximum width for better readability */
+    text-align: center; /* Center align text */
+  }
+  
+  .register-title {
+    font-size: 28px; /* Larger title font size */
+    color: #343a40; /* Dark gray color for title */
+    margin-bottom: 20px; /* Space below the title */
+  }
+  
+  .register-input,
+  .register-select {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding inside inputs */
+    margin-bottom: 20px; /* Space below inputs */
+    border: 1px solid #ced4da; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size for input text */
+  }
+  
+  .register-input:focus,
+  .register-select:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove outline */
+  }
+  
+  .register-button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding inside button */
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 18px; /* Larger font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.2s; /* Smooth transition for background color */
+  }
+  
+  .register-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  

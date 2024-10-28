@@ -1,0 +1,104 @@
+/* About.css */
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* Gradient background */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    margin: 20px auto; /* Center the container */
+    max-width: 800px; /* Limit width for better readability */
+    text-align: center; /* Center align all text */
+  }
+  
+  .about-title {
+    font-size: 36px;
+    color: #2c3e50; /* Dark navy color for title */
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif; /* Clean sans-serif font */
+    font-weight: bold;
+  }
+  
+  .about-description {
+    font-size: 20px;
+    color: #34495e; /* Darker gray for description */
+    margin-bottom: 40px;
+    line-height: 1.5; /* Better line height for readability */
+  }
+  
+  .section-title {
+    font-size: 28px;
+    color: #2980b9; /* Bright blue color for section titles */
+    margin: 20px 0;
+    font-family: 'Verdana', sans-serif; /* Different font for section titles */
+  }
+  
+  .team-members {
+    display: flex;
+    flex-direction: column; /* Stack team members vertically */
+    align-items: center; /* Center align team members */
+    width: 100%; /* Full width */
+    margin-bottom: 40px; /* Space below team section */
+  }
+  
+  .team-member {
+    background-color: #ffffff; /* White background for each team member */
+    padding: 20px; /* Increased padding for better aesthetics */
+    border-radius: 10px; /* Rounded corners */
+    margin: 10px 0; /* Space between team members */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 90%; /* Limit width of team member cards */
+    transition: transform 0.2s; /* Smooth hover effect */
+  }
+  
+  .team-member:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+  }
+  
+  .team-member h4 {
+    font-size: 22px; /* Size for member name */
+    color: #2c3e50; /* Dark navy color */
+    margin-bottom: 10px; /* Space below name */
+    font-weight: bold;
+  }
+  
+  .team-member p {
+    font-size: 16px; /* Font size for member description */
+    color: #7f8c8d; /* Light gray for member details */
+  }
+  
+  .mission-statement, .contact-info {
+    font-size: 18px;
+    color: #34495e; /* Dark gray text color */
+    text-align: center; /* Center align text */
+    width: 100%; /* Full width */
+    margin: 10px 0; /* Space around mission statement and contact info */
+  }
+  
+  .contact-info {
+    margin-top: 30px; /* More space above contact info */
+  }
+
+
+  .social-links {
+    margin-top: 10px;
+  }
+  
+  .social-icon {
+    font-size: 24px; /* Adjust size as needed */
+    color: #333; /* Change color to match your design */
+    margin-right: 10px; /* Space between icons */
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #0077b5; /* Change color on hover for LinkedIn */
+  }
+  
+  .social-icon:nth-child(2):hover {
+    color: #e4405f; /* Change color on hover for Instagram */
+  }
+  
+  
